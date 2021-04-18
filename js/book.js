@@ -1,0 +1,1 @@
+$(function(){$(document).ready(function(e){$("#formfooter").click(function(){$('html,body').animate({scrollTop:$('.footer').offset().top})})})})
