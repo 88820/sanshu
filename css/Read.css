@@ -25,6 +25,12 @@ h1 {
     border: 1px #f9f5fa solid;
     margin-top: 20px;
 }
+.panel-heading {
+    font-size: 18px;
+    color: #5b2b61;
+    font-weight: bold;
+    border: none;
+}
 .panel-body {
     padding: 15px 5px;
 }
