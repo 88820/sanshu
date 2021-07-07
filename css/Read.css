@@ -1,1 +1,176 @@
-p{text-indent:2em}h1{margin:0;font-size:26px;text-align:center}#content{line-height:2em;font-size:22px}.shumu{margin-left:40%}.panel-read{border:none}.panel-read>.panel-heading{border:none;font-size:20px;color:#5b2b61}.panel{border:1px#f9f5fa solid;margin-top:20px}.panel-heading{font-size:18px;color:#5b2b61;font-weight:bold;border:none}.panel-body{padding:15px 5px}.panel-footer{background-color:#f9f5fa}.input-group{margin-left:-10px;margin-right:-10px}#big,#small{color:#5b2b61}.huifucontent{border:1px#f9f5fa solid;margin-bottom:20px;margin-left:-10px;margin-right:-10px;background-color:#f9f5fa;padding-top:15px;padding-left:5px;line-height:1.5em}.huifucontent p{color:#5b2b61;line-height:2em}.huifucontent span{color:#ef5c76}footer{margin-bottom:50px}.btn-search,.btn-search:hover,.btn-search:active,.btn-info,.btn-info:hover,.btn-info:active,.btn-info.focus,.btn-info:focus{background-color:#5b2b61;border-color:#5b2b61;color:#fff}#commentlist{margin:10px 0;padding:0}#comments ul li{list-style:none}#commentlist.comment_container{padding:20px;position:relative;min-height:50px;border-top:1px solid rgba(0,0,0,0.13)}#commentlist li.children{margin-left:30px}.comment_container span.author{margin-right:10px;color:#777}.comment_container.comment-text{margin-right:60px}.comment_container p{margin:0;padding:0}#commentlist.comment_container.comment-meta{position:absolute;top:10px;right:10px;font-size:12px;line-height:12px}.comment{font:13px/1.6 Helvetica Neue,Helvetica,Arial,\\5FAE\8F6F\96C5\9ED1,Microsoft YaHei,sans-serif;min-height:40px;margin:5px auto;word-wrap:break-word}.comment*{margin:0;padding:0;box-sizing:border-box}.comment-header{height:36px;line-height:36px;font-weight:700;font-size:15px;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;border-bottom:2px solid#e7e9ee;color:#656c7a}.comment-header.comment-header-item{display:inline-block;border-bottom:2px solid#656c7a;margin-bottom:-2px;padding:0 7px}.item{overflow:hidden;margin-top:10px;border-bottom:1px dashed#ddd;text-indent:10px;text-overflow:ellipsis;white-space:nowrap;line-height:35px}.page_ad{width:50%;float:right}.page_below{width:100%;text-align:center;padding-bottom:40px}.panel-link a{margin-right:10px;display:inline-block;padding:3px}@font-face{font-family:iconfont;src:url(src:url(}.iconfont{font-family:iconfont!important;font-size:28px!important;font-style:normal;-webkit-font-smoothing:antialiased;-webkit-text-stroke-width:.2px;-moz-osx-font-smoothing:grayscale}@media(min-width:900px){.page_ad{width:35%}}
+p {
+    text-indent: 2em;
+}
+h1 {
+    margin: 0;
+    font-size: 26px;
+    text-align: center;
+}
+#content {
+    line-height: 2em;
+    font-size: 22px;
+}
+.shumu {
+    margin-left: 40%;
+}
+.panel-read {
+    border: none;
+}
+.panel-read > .panel-heading {
+    border: none;
+    font-size: 20px;
+    color: #5b2b61;
+}
+.panel {
+    border: 1px #f9f5fa solid;
+    margin-top: 20px;
+}
+.panel-body {
+    padding: 15px 5px;
+}
+.panel-footer {
+    background-color: #f9f5fa;
+}
+.input-group {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+#big,
+#small {
+    color: #5b2b61;
+}
+.huifucontent {
+    border: 1px #f9f5fa solid;
+    margin-bottom: 20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    background-color: #f9f5fa;
+    padding-top: 15px;
+    padding-left: 5px;
+    line-height: 1.5em;
+}
+.huifucontent p {
+    color: #5b2b61;
+    line-height: 2em;
+}
+.huifucontent span {
+    color: #ef5c76;
+}
+footer {
+    margin-bottom: 50px;
+}
+.btn-search,
+.btn-search:hover,
+.btn-search:active,
+.btn-info,
+.btn-info:hover,
+.btn-info:active,
+.btn-info.focus,
+.btn-info:focus {
+    background-color: #5b2b61;
+    border-color: #5b2b61;
+    color: #fff;
+}
+#commentlist {
+    margin: 10px 0;
+    padding: 0;
+}
+#comments ul li {
+    list-style: none;
+}
+#commentlist .comment_container {
+    padding: 20px;
+    position: relative;
+    min-height: 50px;
+    border-top: 1px solid rgba(0, 0, 0, 0.13);
+}
+#commentlist li .children {
+    margin-left: 30px;
+}
+.comment_container span.author {
+    margin-right: 10px;
+    color: #777;
+}
+.comment_container .comment-text {
+    margin-right: 60px;
+}
+.comment_container p {
+    margin: 0;
+    padding: 0;
+}
+#commentlist .comment_container .comment-meta {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 12px;
+    line-height: 12px;
+}
+.comment {
+    font: 13px/1.6 Helvetica Neue, Helvetica, Arial, \\5FAE\8F6F\96C5\9ED1, Microsoft YaHei, sans-serif;
+    min-height: 40px;
+    margin: 5px auto;
+    word-wrap: break-word
+}
+.comment * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+.comment-header {
+    height: 36px;
+    line-height: 36px;
+    font-weight: 700;
+    font-size: 15px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border-bottom: 2px solid #e7e9ee;
+    color: #656c7a
+}
+.comment-header .comment-header-item {
+    display: inline-block;
+    border-bottom: 2px solid #656c7a;
+    margin-bottom: -2px;
+    padding: 0 7px
+}
+.item {
+    overflow: hidden;
+    margin-top: 10px;
+    border-bottom: 1px dashed #ddd;
+    text-indent: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 35px;
+}
+.page_ad {
+    width: 50%;
+    float: right;
+}
+.page_below {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.panel-link a {
+    margin-right: 10px;
+    display: inline-block;
+    padding: 3px;
+}
+@font-face {
+    font-family: iconfont;
+    src: url(//at.alicdn.com/t/font_1469870591_4291425.eot);
+    src: url(//at.alicdn.com/t/font_1469870591_4291425.eot?#iefix) format('embedded-opentype'), url(//at.alicdn.com/t/font_1469870591_4291425.woff) format('woff'), url(//at.alicdn.com/t/font_1469870591_4291425.ttf) format('truetype'), url(//at.alicdn.com/t/font_1469870591_4291425.svg#iconfont) format('svg')
+}
+.iconfont {
+    font-family: iconfont !important;
+    font-size: 28px !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: .2px;
+    -moz-osx-font-smoothing: grayscale
+}
+@media (min-width:900px) {
+    .page_ad {
+        width: 35%;
+    }
+}
